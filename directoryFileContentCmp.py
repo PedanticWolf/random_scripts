@@ -4,8 +4,6 @@ import hashlib
 import sys
 
 bufsize = 65536
-# Path1 = '/Users/kirkchambers/Desktop'
-# Path2 = '/Users/kirkchambers/DataSets'
 
 def generate_file_digests_for(path):
 	path_set = set()
@@ -27,7 +25,6 @@ def generate_file_digest(fqFilename, shortFilename):
 		while len(fileBuffer) > 0:
 			hasher.update(fileBuffer)
 			fileBuffer = filestream.read(bufsize)
-	# return "Filename:{file}\nHash:{hash}\nSize:{size}\n".format(file=fqFilename, hash=hasher.hexdigest(), size=os.path.getsize(fqFilename))
 	return (hasher.hexdigest(), fqFilename, os.path.getsize(fqFilename))
 
 
@@ -45,15 +42,7 @@ if __name__ == "__main__":
 
 	path_set_1 = generate_file_digests_for(Path1)
 	path_set_2 = generate_file_digests_for(Path2)
-
-	# union = path_set_1 | path_set_2
 	set_1_exclusives = path_set_1 - path_set_2
-	# set_2_exclusives = path_set_2 - path_set_1
-	# print "length of 1: {}".format(len(path_set_1))
-	# print "length of 2: {}".format(len(path_set_2))
-	# print "length of union: {}".format(len(union))
-	# print "length of set1 uniqs: {}".format(len(set_1_exclusives))
-	# print "length of set2 uniqs: {}".format(len(set_2_exclusives))
 
 	print "Files present in {path1} and not in {path2}:".format(path1=Path1, path2=Path2)
 	for item in set_1_exclusives:
