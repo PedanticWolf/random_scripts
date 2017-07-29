@@ -1,0 +1,114 @@
+Note:
+This is a largely unorganized mind dump of resources I've found useful for rando projects.
+
+
+
+
+Matplotlib, specifically realtime stuff:
+https://stackoverflow.com/questions/11874767/real-time-plotting-in-while-loop-with-matplotlib
+
+
+
+
+
+Anything Machine Learning:
+https://medium.com/deep-learning-101/how-to-generate-a-video-of-a-neural-network-learning-in-python-62f5c520e85c
+
+
+https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
+
+
+https://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/
+
+
+https://ajolicoeur.wordpress.com/cats/
+
+
+https://code.facebook.com/posts/132985767285406/introducing-elf-an-extensive-lightweight-and-flexible-platform-for-game-research/
+
+
+https://medium.com/intuitionmachine/the-strange-loop-in-deep-learning-38aa7caf6d7d
+
+
+http://karpathy.github.io/neuralnets/
+
+https://ml.berkeley.edu/blog/2016/11/06/tutorial-1/
+https://ml.berkeley.edu/blog/2016/12/24/tutorial-2/
+https://ml.berkeley.edu/blog/2017/02/04/tutorial-3/
+https://ml.berkeley.edu/blog/2017/07/13/tutorial-4/
+
+
+https://blog.keras.io/the-limitations-of-deep-learning.html
+
+
+
+
+
+Extremely Random Convert Machine to VM:
+https://www.vmware.com/products/converter.html
+
+https://www.howtogeek.com/213145/how-to%C2%A0convert-a-physical-windows-or-linux-pc-to-a-virtual-machine/
+
+https://www.virtualbox.org/wiki/Migrate_Windows#StepByStepInstructionsForWindowsXP
+
+https://technet.microsoft.com/en-us/sysinternals/ee656415.aspx
+Disk2vhd from M$
+
+http://www.makeuseof.com/tag/create-a-virtual-machine-image-of-your-existing-hard-drive-windows/
+
+
+
+
+
+
+
+Appium:
+Killer Resources:
+http://selenium-python.readthedocs.io/locating-elements.html
+http://selenium-python.readthedocs.io/waits.html
+Taught me how to avoid the sleep(X) construct
+
+https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/appium-bindings.md
+ALL THE THINGS
+
+
+
+
+Useful:
+https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html
+
+https://github.com/appium/python-client
+http://appium.io/
+
+https://docs.python.org/2/library/unittest.html
+Available python assertions
+
+
+
+
+https://stackoverflow.com/questions/4504622/a-way-to-output-pyunit-test-name-in-setup
+self.id().split('.')[-1]
+
+
+https://pypi.python.org/pypi/pytest-html/
+
+
+
+
+Killer for pytest and reporting:
+https://docs.pytest.org/en/latest/_modules/_pytest/hookspec.html
+
+
+Out-of-the-box Options:
+https://pypi.python.org/pypi/pytest-html/
+
+
+
+General Screenshot actions:
+https://stackoverflow.com/questions/40461246/how-to-set-appium-to-take-screenshots-on-every-action
+
+Maybe helpful for screenshot debugging:
+https://discuss.appium.io/t/take-screenshot-in-appium/4351/7
+
+General post on screenshots:
+http://www.qaautomated.com/2016/03/how-to-take-screenshot-in-appium.html
