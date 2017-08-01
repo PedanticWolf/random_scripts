@@ -7,6 +7,9 @@ This is a largely unorganized mind dump of resources I've found useful for rando
 Matplotlib, specifically realtime stuff:
 https://stackoverflow.com/questions/11874767/real-time-plotting-in-while-loop-with-matplotlib
 
+Beat Detection:
+https://www.clear.rice.edu/elec301/Projects01/beat_sync/beatalgo.html
+
 
 
 
